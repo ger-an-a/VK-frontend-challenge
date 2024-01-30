@@ -1,0 +1,14 @@
+.grid {
+    width: 100%;
+    width: 91.5vw;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 225px);
+    grid-auto-rows: 225px;
+    gap: 48px;
+    margin: 50px 0;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}

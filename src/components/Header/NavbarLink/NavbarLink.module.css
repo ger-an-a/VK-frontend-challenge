@@ -1,0 +1,21 @@
+.navbarLink {
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22px;
+    opacity: .7;
+    transition: all .3s linear;
+}
+
+.navbarLink:hover {
+    opacity: 1;
+}
+
+.navbarLink_active {
+    opacity: 1;
+    color: #fff;
+    background-color: var(--primary-600);
+}
