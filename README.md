@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Проект "Кошачий пинтерест" (тестовое задание)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Смотреть здесь: 
 
-Currently, two official plugins are available:
+- Проект написан на React + TypeScript. Собран с помощью Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Что сделано:
+- при попытке перейти на любой роут кроме "/saved-cats" происходит редирект на главную страницу.
+- на главной странице реализована бесконечная прокрутка. Карточки загружаются по 15 штук.
+- по нажатию на кнопку лайка карточку можно добавить в "любимые" и убрать из "любимых".
+- данные о "любимых" котиках хранятся в localStorage в виде JSON строки.
+- на вкладке "любимые котики" отображаются добавленные в "любимые" котики.
+- корректное отображение на ширине от 320px.
 
-## Expanding the ESLint configuration
+## Текст задания:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Необходимо реализовать интерфейс для просмотра котиков используя API https://thecatapi.com
 
-- Configure the top-level `parserOptions` property like this:
+Дизайн лежит тут - https://bit.ly/3utxaL2
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- по умолчанию должна открываться вкладка "все котики"
+- у котика должна быть возможность добавить в "любимые" и убрать из "любимых"
+- данные о "любимых" котиках должны хранится на клиенте
+- на вкладке "любимые котики" должны отображаться добавленные в "любимые" котики
+- реализация адаптивности будет плюсом, но не обязательна
+- бесконечная прокрутка будет плюсом, но не обязательна
+- можно использовать любой фреймворк включая vanilla.js
