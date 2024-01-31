@@ -1,6 +1,6 @@
 # Проект "Кошачий пинтерест" (тестовое задание)
 
-## [Смотреть здесь.](https://ger-an-a.github.io/saved-cats)
+## Смотреть здесь: [https://ger-an-a.github.io/saved-cats](https://ger-an-a.github.io/VK-frontend-challenge/)
 
 - Проект написан на React + TypeScript. Собран с помощью Vite.
 
